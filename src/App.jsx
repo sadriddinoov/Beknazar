@@ -32,7 +32,9 @@ function App() {
     <div>
     <div className="hero_modal"></div>
     <img src={beach} alt="" className="hero_beach" />
+    <div className="hero_imgg">
     <img src={hero} alt="" className="hero_img" />
+    </div>
     </div>
     
     <div className="hero_wrap">

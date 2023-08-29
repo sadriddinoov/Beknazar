@@ -338,18 +338,14 @@ a {
       
   
       &_modal {
-        width: 460px;
-        height: 550px;
-        left: 0;
-        margin-left: -30px;
-        top: 0;
+        display: none;
       }
     
       &_img {
         width: 300px;
         height: 415px;
         top: 300px;
-        left: 50px;
+        left: 25px;
       }
     
       &_wrap {
@@ -363,8 +359,7 @@ a {
     .moment {
   
       &_modal {
-        width: 440px;
-        left: 30px;
+        display: none;
       }
 
       &_img {
@@ -374,7 +369,7 @@ a {
       }
     
       &_heading {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 47.64px;
       }
     
@@ -396,5 +391,31 @@ a {
         display: flex;
         justify-content: center;
       }
+
+      &_text {
+        font-size: 16px;
+      }
     }
+}
+
+@media only screen and (max-width: 325px) {
+  .moment_img {
+    width: 250px;
+  }
+
+  .hero {
+    margin-bottom: 800px;
+    &_btn {
+      font-size: 16px;
+    }
+
+    &_wrap {
+      margin-left: -170px;
+    }
+
+    &_img {
+      width: 250px;
+      left: 10px;
+    }
+  }
 }

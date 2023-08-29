@@ -296,3 +296,37 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 375px) {
+   .contact {
+    &_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #D5EEED;
+        padding: 20px;
+        max-width: none;  
+
+        &-heading {
+            font-size: 20px;
+            line-height: 32.64px;
+            margin-bottom: 30px;
+        }
+    }
+
+    &_input {
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+   }
+}
+
+@media only screen and (max-width: 325px) {
+    .contact {
+     &_modal {
+        left: 200px;
+        top: 770px;
+     }
+    }
+ }

@@ -179,10 +179,14 @@
         }
     
         &_modal {
-            width: 440px;
-            height: 530px;
-            top: 355px;
-            left: -20px;
+            display: none;
         }
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .about_img {
+        width: 250px;
+        height: 300px;
     }
 }

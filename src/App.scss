@@ -345,11 +345,11 @@ a {
         width: 300px;
         height: 415px;
         top: 300px;
-        left: 25px;
+        left: 45px;
       }
     
       &_wrap {
-        left: 160px;
+        left: 150px;
         top: 0px;
         margin-left: -150px;
         margin-top: 20px;
@@ -398,7 +398,17 @@ a {
     }
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 375px) {
+
+  .hero {
+
+    &_img {
+      left: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
   .moment_img {
     width: 250px;
   }
@@ -410,12 +420,13 @@ a {
     }
 
     &_wrap {
-      margin-left: -170px;
+      margin-left: -150px;
+      left: 155px;
     }
 
     &_img {
       width: 250px;
-      left: 10px;
+      left: 20px;
     }
   }
 }

@@ -1,0 +1,27 @@
+.footer {
+    &_container {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    &_img {
+        width: 200px;
+        height: 130px;
+        object-fit: contain;
+    }
+
+    &_group {
+        width: 250px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    &_heading {
+        font-family: 'Imprima';
+        font-size: 24px;
+        line-height: 32.73px;
+        color: #000000;
+    }
+}

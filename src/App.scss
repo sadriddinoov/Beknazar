@@ -38,13 +38,151 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .container {
-  max-width: 1295px;
+  max-width: 1305px;
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 20px;
   margin-left: 20px;
   margin: 0 auto;
+}
+
+.hero {
+  margin-bottom: 190px;
+
+  &_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &_modal {
+    width: 799px;
+    height: 588px;
+    background-color: #D5EEED;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &_beach {
+      width: 840px;
+      height: 458px;
+      object-fit: contain;
+      margin-left: 75px;
+      margin-top: 60px;
+      z-index: 1;
+  }
+
+  &_img {
+    width: 349px;
+    height: 465px;
+    object-fit: contain;
+    position: absolute;
+    top: 170px;
+    left: 230px;
+    z-index: 2;
+  }
+
+  &_wrap {
+    background-color: #2373AF;
+    padding: 41px 40px 56px 30px;
+    position: absolute;
+    left: 720px;
+    top: 25px;
+  }
+
+  &_heading {
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    max-width: 458px;
+    font-weight: 400;
+    margin-bottom: 65px;
+  }
+
+  &_btn {
+    background-color: #9FD0D1;
+    padding: 12px 60px;
+    font-family: 'Imprima';
+    color: #2C1010;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  &_wrapper {
+    text-align: center;
+  }
+}
+
+.moment {
+  margin-bottom: 120px;
+
+  &_bgc {
+    margin-bottom: 30px;
+    padding: 50px 0 43px 0;
+  }
+
+  &_heading {
+    font-family: 'Imprima';
+    font-size: 80px;
+    line-height: 92.64px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 70px;  
+  }
+
+  &_wrap {
+    display: flex;
+    gap: 100px;
+  }
+
+  &_left {
+    margin-left: 50px;
+    margin-top: 40px;
+
+    &-heading {
+      font-family: 'Indie Flower';
+      font-size: 60px;
+      line-height: 92.13px;
+      margin-bottom: 25px;
+    }
+  }
+
+  &_text {
+    font-family: 'Imprima';
+    font-size: 22px;
+    line-height: 27.26px;
+    color: #454545;
+    max-width: 674px;
+  }
+
+  &_img {
+    width: 526px;
+    height: 600px;
+    object-fit: contain;
+    margin-top: 41px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 780px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        max-width: 430px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }

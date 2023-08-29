@@ -1,0 +1,36 @@
+.travel {
+    margin-bottom: 100px;
+
+    &_heading {
+        font-family: 'Imprima';
+        font-size: 90px;
+        line-height: 100px;
+        color: #fff;
+        text-align: center;
+    }
+
+    &_bg {
+        padding-top: 100px;
+        margin-bottom: 88px;
+    }
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        gap: 300px;
+        justify-content: center;
+    }
+
+    &_imgg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgg {
+        width: 400px;
+        height: 600px;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+}

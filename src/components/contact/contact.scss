@@ -1,0 +1,100 @@
+.contact {
+    margin-bottom: 100px;
+
+    &_container {
+        position: relative;
+    }
+
+    &_heading {
+        font-family: 'Imprima';
+        font-size: 90px;
+        line-height: 100px;
+        color: #fff;
+        text-align: center;
+    }
+
+    &_bgc {
+        padding-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    &_wrap {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+
+    &_left {
+        margin-top: 38px;
+
+        &-heading {
+            font-family: 'Indie Flower';
+            font-size: 49px;
+            line-height: 62px;
+            margin-bottom: 25px;
+        }
+    }
+
+    &_text {
+        font-family: 'Imprima';
+        font-size: 35px;
+        line-height: 43.41px;
+    }
+
+    &_img {
+        width: 490px;
+        height: 700px;
+        object-fit: contain;
+    }
+
+    &_modal {
+        width: 770px;
+        height: 538px;
+        background-color: #D5EEED;
+        position: absolute;
+        z-index: -1;
+        left: 670px;
+        top: 430px;
+    }
+
+    &_form {
+        display: block;
+        background-color: #D5EEED;
+        padding: 45px 86px 81px 79px;  
+        max-width: 686px;
+
+        &-heading {
+            font-family: 'Imprima';
+            font-size: 60px;
+            line-height: 72.64px;
+            color: #2C1010;
+            margin-bottom: 50px;
+        }
+    }
+
+    &_input {
+        border: none;
+        outline: none;
+        background-color: #9FD0D1;
+        font-family: 'Inconsolata';
+        font-size: 30px;
+        line-height: 32.21px;
+        color: #2C1010;
+        padding: 15px 50px;
+        margin-bottom: 29px;
+        display: block;
+    }
+
+    &_btn {
+        font-family: 'Inconsolata';
+        font-size: 30px;
+        line-height: 32.21px;
+        color: #2C1010;
+        padding: 15px 50px;
+        border: none;
+        outline: none;
+        background-color: #2373AF; 
+        width: calc(100% - 85px);
+        text-align: left;
+    }
+}

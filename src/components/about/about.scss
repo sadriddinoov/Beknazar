@@ -1,0 +1,57 @@
+.about {
+    margin-bottom: 120px;
+
+    &_container {
+        position: relative;
+    }
+
+    &_heading {
+        font-family: 'Imprima';
+        font-size: 90px;
+        line-height: 108.96px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    &_bgc {
+        padding-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    &_wrap {
+        display: flex;
+        gap: 50px;
+    }
+
+    &_right {
+        margin-top: 30px;
+
+        &-heading {
+            font-family: 'Imprima';
+            font-size: 45px;
+            line-height: 52.11px;
+        }
+    }
+
+    &_img {
+        width: 600px;
+        height: 669px;
+        object-fit: contain;
+    }
+
+    &_text {
+        font-family: 'Imprima';
+        font-size: 26px;
+        line-height: 50px;
+    }
+
+    &_modal {
+        width: 980px;
+        height: 510px;
+        z-index: -1;
+        position: absolute;
+        background-color: #D5EEED;
+        top: 485px;
+        left: -190px;
+    }
+}

@@ -1,0 +1,41 @@
+.header {
+    padding: 33px 0px;
+
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_img {
+        width: 280px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    &_heading {
+        font-family: 'Imprima';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38.41px;
+        color: #000000;
+    }
+
+    &_select {
+        font-family: 'Inconsolata';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        outline: none;
+        border: none;
+        background-color: rgb(135, 202, 135);
+        border-radius: 10px;
+        padding: 7px 15px;
+        color: #fff;
+    }
+
+    &_opt{
+        padding: 10px;
+        border: none;
+    }
+}

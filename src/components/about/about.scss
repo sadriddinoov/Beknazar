@@ -55,3 +55,134 @@
         left: -190px;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .about {
+        margin-bottom: 150px;
+
+        &_heading {
+            font-size: 70px;
+        }
+    
+        &_right {
+    
+            &-heading {
+                font-size: 35px;
+                line-height: 42.11px;
+            }
+        }
+    
+        &_img {
+            width: 500px;
+            height: 569px;
+        }
+    
+        &_text {
+            font-size: 23px;
+            line-height: 40px;
+        }
+    
+        &_modal {
+            width: 980px;
+            height: 410px;
+            z-index: -1;
+            position: absolute;
+            background-color: #D5EEED;
+            top: 455px;
+            left: -190px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+    
+        &_heading {
+            font-size: 50px;
+            line-height: 68.96px;
+        }
+    
+        &_bgc {
+            padding-top: 125px;
+        }
+    
+        &_wrap {
+            flex-direction: column;
+        }
+    
+        &_right {
+            margin-top: 0px;
+            text-align: center;
+    
+            &-heading {
+                font-size: 30px;
+                line-height: 32.11px;
+            }
+        }
+    
+        &_img {
+            width: 400px;
+            height: 469px;
+        }
+
+        &_imgg {
+            display: flex;
+            justify-content: center;
+        }
+    
+        &_text {
+            font-family: 'Imprima';
+            font-size: 20px;
+            line-height: 30px;
+        }
+    
+        &_modal {
+            width: 740px;
+            height: 530px;
+            top: 485px;
+            left: -20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about {
+        margin-bottom: 100px;
+    
+        &_heading {
+            font-size: 40px;
+            line-height: 58.96px;
+        }
+    
+        &_wrap {
+            flex-direction: column-reverse;
+        }
+    
+        &_right {
+            margin-top: 0px;
+            text-align: center;
+    
+            &-heading {
+                font-size: 25px;
+                line-height: 27.11px;
+            }
+        }
+    
+        &_img {
+            width: 350px;
+            height: 400px;
+        }
+    
+        &_text {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    
+        &_modal {
+            width: 440px;
+            height: 530px;
+            top: 355px;
+            left: -20px;
+        }
+    }
+}

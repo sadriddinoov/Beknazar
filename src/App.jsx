@@ -66,7 +66,7 @@ function App() {
     </div>
     
     <div className="moment_wrap">
-    <div className="hero_modal"></div>
+    <div className="moment_modal hero_modal"></div>
     <div className="moment_left">
     <h3 className="moment_left-heading">
     {t('moment.text')}
@@ -77,7 +77,9 @@ function App() {
     </p>
     </div>
     
+    <div className='moment_imgg'>
     <img className='moment_img' src={man} alt="" />
+    </div>
     </div>
     </div>
     </div>

@@ -27,8 +27,9 @@ export default function About() {
                     </div>
 
                     <div className="about_wrap">
+                        <div className='about_imgg'>
                         <img src={man2} alt="" className="about_img" />
-
+                        </div>
                         <div className="about_modal"></div>
 
                         <div className="about_right">

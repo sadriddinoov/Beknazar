@@ -1,8 +1,12 @@
 import './header.scss'
 import logo from '../../assets/logo-01.png'
 import { useTranslation } from 'react-i18next';
+import Drawer from '../Drawer';
+import { useState } from 'react';
+import burger from '../../assets/burger.png'
 
 export default function Header() {
+
     
     const { t, i18n } = useTranslation();
     
@@ -10,6 +14,15 @@ export default function Header() {
         i18n.changeLanguage(e.target.value);
         
         localStorage.setItem("lang", JSON.stringify(e.target.value));
+    };
+    
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+    const openDrawer = () => {
+        setIsDrawerOpen(true);
+    };
+    
+    const closeDrawer = () => {
+        setIsDrawerOpen(false);
     };
     
     
@@ -51,9 +64,36 @@ export default function Header() {
         </option>
         </select>
         
+        <img
+            src={burger}
+            onClick={openDrawer}
+            alt=""
+            className="header_burger"
+        />
+        
         
         </ul>
         </div>
+        <Drawer isOpen={isDrawerOpen} closeDrawer={closeDrawer}>
+        <div className="drawer_list">
+        <a onClick={closeDrawer}  href='/' className="drawer_item">
+        {t("header.main")}
+        </a>
+        
+        <a onClick={closeDrawer} href='#about' className="drawer_item">
+        {t("header.about")}
+        </a>
+        
+        <a onClick={closeDrawer} href='#travel' className="drawer_item">
+        {t("header.travel")}
+        </a>
+
+        <a onClick={closeDrawer} href='#contact' className="drawer_item">
+        {t("header.contact")}
+        </a>
+        
+        </div>
+        </Drawer>
         </header>
         )
     }

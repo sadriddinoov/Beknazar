@@ -80,12 +80,15 @@ export default function Contact() {
                             </p>
                         </div>
 
+                        <div className="contact_imgg">
                         <img className='contact_img' src={man} alt="" />
+                        </div>
                         <div className="contact_modal">
 
                         </div>
                     </div>
 
+                    <div style={{display: 'flex'}}>
                     <form onSubmit={sendtelegram} data-aos="flip-right" className='contact_form'>
                         <div className="contact_form-wrap">
                             <h3 className="contact_form-heading">
@@ -100,6 +103,9 @@ export default function Contact() {
                         <button className='contact_btn' type='submit'>{t('contact.send')}</button>
 
                     </form>
+
+                    <img className='contact_vector' src={vector} alt="" />
+                    </div>
                 </div>
             </div>
         </section>

@@ -38,4 +38,73 @@
         padding: 10px;
         border: none;
     }
+
+    &_burger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        padding: 10px 0px;
+    
+        &_img {
+            width: 220px;
+            height: 180px;
+            object-fit: contain;
+        }
+    
+        &_heading {
+            font-size: 25px;
+            line-height: 33.41px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+    
+        &_img {
+            width: 180px;
+            height: 100px;
+        }
+    
+        &_heading {
+            font-size: 20px;
+            line-height: 24.41px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+
+        &_container {
+            justify-content: center;
+        }
+    
+        &_img {
+            margin-right: 20px;
+            object-fit: contain;
+            width: 120px;
+        }
+    
+        &_heading {
+            display: none;
+        }
+
+        &_burger {
+            display: block;
+            margin-left: 20px;
+        }
+
+        .drawer_item {
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+            margin-bottom: 30px;
+            display: block;
+            font-family: "Imprima";
+        }
+    }
 }

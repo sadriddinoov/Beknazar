@@ -34,3 +34,63 @@
         margin-bottom: 30px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .travel {
+    
+        &_heading {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    
+        &_bg {
+            padding-top: 125px;
+        }
+    
+        &_wrap {
+            gap: 200px;
+        }
+    
+        &_imgg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &_img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+    
+        .imgg {
+            width: 400px;
+            height: 500px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .travel {
+    
+        &_heading {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    
+        &_wrap {
+            gap: 150px;
+        }
+
+        &_img {
+            width: 40px;
+            height: 40px;
+        }
+    
+        .imgg {
+            width: 300px;
+            height: 400px;
+        }
+    }
+}

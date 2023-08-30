@@ -76,7 +76,7 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
     .header {
 
         &_container {
@@ -96,6 +96,8 @@
         &_burger {
             display: block;
             margin-left: 20px;
+            width: 60px;
+            height: 60px;
         }
 
         .drawer_item {

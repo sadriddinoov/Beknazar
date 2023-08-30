@@ -1,10 +1,10 @@
 .contact {
     margin-bottom: 100px;
-
+    
     &_container {
         position: relative;
     }
-
+    
     &_heading {
         font-family: 'Imprima';
         font-size: 90px;
@@ -12,21 +12,21 @@
         color: #fff;
         text-align: center;
     }
-
+    
     &_bgc {
         padding-top: 100px;
         margin-bottom: 30px;
     }
-
+    
     &_wrap {
         display: flex;
         gap: 50px;
         margin-bottom: 100px;
     }
-
+    
     &_left {
         margin-top: 38px;
-
+        
         &-heading {
             font-family: 'Indie Flower';
             font-size: 49px;
@@ -34,19 +34,19 @@
             margin-bottom: 25px;
         }
     }
-
+    
     &_text {
         font-family: 'Imprima';
         font-size: 35px;
         line-height: 43.41px;
     }
-
+    
     &_img {
         width: 490px;
         height: 700px;
         object-fit: contain;
     }
-
+    
     &_modal {
         width: 770px;
         height: 538px;
@@ -56,13 +56,13 @@
         left: 670px;
         top: 430px;
     }
-
+    
     &_form {
         display: block;
         background-color: #D5EEED;
         padding: 45px 86px 81px 79px;  
         max-width: 686px;
-
+        
         &-heading {
             font-family: 'Imprima';
             font-size: 60px;
@@ -71,7 +71,7 @@
             margin-bottom: 50px;
         }
     }
-
+    
     &_input {
         border: none;
         outline: none;
@@ -84,7 +84,7 @@
         margin-bottom: 29px;
         display: block;
     }
-
+    
     &_btn {
         font-family: 'Inconsolata';
         font-size: 30px;
@@ -97,7 +97,7 @@
         width: 100%;
         text-align: left;
     }
-
+    
     &_vector {
         z-index: 2;
         margin-left: -50px;
@@ -106,38 +106,48 @@
         height: 400px;
         object-fit: contain;
     }
+    
+    &_label {
+        display: flex;
+        align-items: center;
+    }
+    
+    
 }
+
+.react-tel-input {
+ }   
 
 @media only screen and (max-width: 1024px) {
     .contact {
-    
+        
         &_heading {
             font-size: 70px;
             line-height: 80px;
         }
-    
+        
         &_left {
             margin-top: 38px;
-    
+            
             &-heading {
                 font-size: 39px;
                 line-height: 52px;
                 max-width: 550px;
             }
         }
-    
+        
         &_text {
             font-size: 30px;
             line-height: 35.41px;
             max-width: 500px;
             margin: 0;
         }
-    
+        
         &_img {
             width: 400px;
             height: 600px;
         }
-    
+        
         &_modal {
             width: 470px;
             height: 438px;
@@ -148,55 +158,55 @@
 
 @media only screen and (max-width: 768px) {
     .contact {
-    
+        
         &_heading {
             font-size: 50px;
             line-height: 60px;
         }
-
+        
         &_bgc {
             padding-top: 125px;
             margin-bottom: 50px;
         }
-
+        
         &_wrap {
             flex-direction: column;
         }
-    
+        
         &_left {
             margin-top: 0px;
             text-align: center;
-    
+            
             &-heading {
                 font-size: 28px;
                 line-height: 32px;
                 max-width: none;
             }
         }
-    
+        
         &_text {
             font-size: 20px;
             line-height: 25.41px;
             max-width: none;
         }
-    
+        
         &_img {
             width: 300px;
             height: 500px;
         }
-
+        
         &_imgg {
             display: flex;
             justify-content: center;
         }
-    
+        
         &_modal {
             width: 720px;
             height: 538px;
             left: -10px;
             top: 350px;
         }
-
+        
         &_form {
             display: flex;
             flex-direction: column;
@@ -204,24 +214,24 @@
             background-color: #D5EEED;
             padding: 25px 66px 61px 59px;  
             max-width: 686px;
-    
+            
             &-heading {
                 font-size: 30px;
                 line-height: 42.64px;
                 margin-bottom: 30px;
             }
         }
-    
+        
         &_input {
             font-size: 20px;
             line-height: 22.21px;
         }
-    
+        
         &_btn {
             font-size: 20px;
             line-height: 22.21px;
         }
-    
+        
         &_vector {
             margin-top: -150px;
             width: 300px;
@@ -229,43 +239,43 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
     .contact {
-    
+        
         &_heading {
             font-size: 40px;
             line-height: 50px;
         }
-
+        
         &_bgc {
             padding-top: 125px;
         }
-    
+        
         &_left {
-    
+            
             &-heading {
                 font-size: 25px;
                 line-height: 30px;
             }
         }
-    
+        
         &_text {
             font-size: 18px;
             line-height: 23.41px;
         }
-    
+        
         &_img {
             width: 300px;
             height: 400px;
         }
-    
+        
         &_modal {
             width: 100px;
             height: 308px;
             left: 250px;
             top: 730px;
         }
-
+        
         &_form {
             display: flex;
             flex-direction: column;
@@ -274,24 +284,24 @@
             background-color: #D5EEED;
             padding: 25px;  
             max-width: 686px;
-    
+            
             &-heading {
                 font-size: 30px;
                 line-height: 42.64px;
                 margin-bottom: 30px;
             }
         }
-    
+        
         &_input {
             font-size: 20px;
             line-height: 22.21px;
         }
-    
+        
         &_btn {
             font-size: 20px;
             line-height: 22.21px;
         }
-    
+        
         &_vector {
             display: none;
         }
@@ -300,36 +310,36 @@
 
 
 @media only screen and (max-width: 375px) {
-   .contact {
-    &_form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #D5EEED;
-        padding: 20px;
-        max-width: none;  
-        justify-content: right;
-        margin-left: -3px;
-
-        &-heading {
+    .contact {
+        &_form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #D5EEED;
+            padding: 20px;
+            max-width: none;  
+            justify-content: right;
+            margin-left: -3px;
+            
+            &-heading {
+                font-size: 20px;
+                line-height: 32.64px;
+                margin-bottom: 30px;
+            }
+        }
+        
+        &_input {
             font-size: 20px;
-            line-height: 32.64px;
-            margin-bottom: 30px;
+            padding: 10px 40px;
         }
     }
-
-    &_input {
-        font-size: 20px;
-        padding: 10px 40px;
-    }
-   }
 }
 
 @media only screen and (max-width: 325px) {
     .contact {
-     &_modal {
-        left: 200px;
-        top: 770px;
-     }
+        &_modal {
+            left: 200px;
+            top: 770px;
+        }
     }
- }
+}

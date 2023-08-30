@@ -112,8 +112,7 @@ export default function Contact() {
         
         inputProps={{
             name: 'phone',
-            required: true,
-            autoFocus: true
+            required: true
         }}
         country={'uz'}
         />

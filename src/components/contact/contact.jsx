@@ -34,7 +34,7 @@ export default function Contact() {
     let ready = function() {
         u_name = user;
         u_phone = phone;
-        message = "Ism: " + u_name + "\nTelefon raqam: " + u_phone;
+        message = "Ism: " + u_name + "\nTelefon raqam: " + `${+u_phone}`;
     };
     
     let sendtelegram = function(e)  {

@@ -108,8 +108,12 @@ export default function Travel() {
                             ))
                         }
                         <div className="travel_wrap">
+                            <button className='travel_btn'>
                             <img onClick={leftclick} src={left} alt="" className="travel_img" />
+                            </button>
+                            <button>
                             <img onClick={rightclick} src={right} alt="" className="travel_img" />
+                            </button>
                         </div>
                     </div>
                 </div>
